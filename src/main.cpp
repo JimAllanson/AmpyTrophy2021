@@ -11,10 +11,19 @@
 #define NUM_LEDS 9
 
 #define LED_PIN GPIO_NUM_7
+
 #define SDA 5
 #define SCL 6
 
 #define BUZ 8
+
+#define BUTTON_A 10
+#define BUTTON_B 4
+#define BUTTON_UP 3
+#define BUTTON_DOWN 1
+#define BUTTON_LEFT 0
+#define BUTTON_RIGHT 2
+
 #define RMT_TX_CHANNEL RMT_CHANNEL_0
 
 U8G2_SSD1306_128X64_NONAME_F_SW_I2C u8g2(U8G2_R0, SCL, SDA, U8X8_PIN_NONE);
